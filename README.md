@@ -24,6 +24,16 @@ OR
 $ bech32 decode --encoding=<encoding>
 ```
 
+# Example
+
+```
+$ bech32 encode hello world
+hello1wahhymrynlvsms
+
+$ bech32 decode hello1wahhymrynlvsms
+hello world
+```
+
 # Help
 ```
 $ bech32 -h
